@@ -475,3 +475,29 @@ footer {
   text-align: center;
 }
 
+
+/* Prevent horizontal scrolling */
+body {
+  overflow-x: hidden;
+}
+
+/* Make sure elements fit within the screen on smaller devices */
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Ensure images and other elements are responsive */
+img, video, iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.container {
+  width: 100%;
+  max-width: 1200px; /* You can set a max-width if needed */
+  margin: 0 auto;
+}
+
