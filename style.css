@@ -10,7 +10,8 @@ body {
   line-height: 1.6;
   color: #333;
   margin: 0;
-  display: flex;
+  display: grid;
+  place-items: center;
   juatify-content: center;
   height: 100vh;
 }
