@@ -1,3 +1,39 @@
+  /* Reset Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      width: 100%;
+    }
+
+    /* Universal Centering for Multiple Elements */
+    body {
+      display: flex; /* Flexbox layout to prevent overlapping */
+      flex-direction: column; /* Stack elements vertically */
+      justify-content: center; /* Center elements vertically */
+      align-items: center; /* Center elements horizontally */
+      text-align: center;
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+
+    .center-content {
+      margin: 10px 0; /* Add spacing between elements */
+    }
+
+    img {
+      max-width: 100%; /* Ensure images resize on smaller screens */
+      height: auto; /* Maintain aspect ratio */
+      margin: 10px 0; /* Add spacing around images */
+    }
+ 
+
+
+
 /* General Reset */
 * {
   margin: 0;
@@ -14,10 +50,6 @@ body {
   juatify-content: center;
   height: 100vh;
   position: relative;
-}
-
-.body-flex {
-  display: grid;
 }
 
 /* Hero Section */
