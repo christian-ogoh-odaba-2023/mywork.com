@@ -14,7 +14,7 @@ body {
   juatify-content: center;
   height: 100vh;
   position: relative;
-  display: table;
+  display: grid;
 }
 
 /* Hero Section */
